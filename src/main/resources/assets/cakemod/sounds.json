@@ -1,0 +1,13 @@
+{
+  "cake": {
+    "category": "master",
+    "subtitle": "sound.cake",
+    "sounds": [
+      {
+        "name": "igauntlet:cake",
+        "stream": false
+      }
+    ]
+  }
+}
+

@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+
+[[mods]]
+modId="cakemod"
+version="0.0.1"
+displayName="Cake Mod"
+updateJSONURL="https://www.example.com" #optional
+displayURL="https://discord.gg/pQkRKKN" #optional
+logoFile="" #optional
+credits="JMTeam"
+authors="Josia50"
+description='''
+Adds a Cake Gun to minecraft!
+'''
+[[dependencies.cakemod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[31,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.cakemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"

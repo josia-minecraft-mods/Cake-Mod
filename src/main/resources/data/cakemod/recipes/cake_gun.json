@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    " B ",
+    "   "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bow"
+    },
+    "C": {
+      "item": "minecraft:cake"
+    }
+  },
+  "result": {
+    "item": "cakemod:cake_gun",
+    "count": 1
+  }
+}
